@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.TreeSet;
 
-class Cicle{
+class Cycle{
     public static double task1(double x){
         return (x + 1) / 2 * x;
     }
@@ -89,42 +89,42 @@ public class Main {
         if(n == 1){
             System.out.println("Enter one argument");
             x = scan.nextDouble();
-            System.out.println(Cicle.task1(x));
+            System.out.println(Cycle.task1(x));
         }
         if(n == 2){
             System.out.println("Enter three arguments");
             a = scan.nextDouble();
             b = scan.nextDouble();
             x = scan.nextDouble();
-            Cicle.task2(a, b, x);
+            Cycle.task2(a, b, x);
         }
         if(n == 3){
-            System.out.println(Cicle.task3());
+            System.out.println(Cycle.task3());
         }
         if(n == 4){
-            System.out.println(Cicle.task4());
+            System.out.println(Cycle.task4());
         }
         if(n == 5){
             System.out.println("Enter one argument");
             a = scan.nextDouble();
-            System.out.println(Cicle.task5(a));
+            System.out.println(Cycle.task5(a));
         }
         if(n == 6){
             System.out.println("Enter one argument");
             d = scan.next();
-            Cicle.task6(d);
+            Cycle.task6(d);
         }
         if(n == 7){
             System.out.println("Enter twoo arguments");
             y = scan.nextInt();
             z = scan.nextInt();
-            Cicle.task7(y, z);
+            Cycle.task7(y, z);
         }
         if(n == 8){
             System.out.println("Enter two arguments");
             c = scan.next();
             d = scan.next();
-            Cicle.task8(c, d);
+            Cycle.task8(c, d);
         }
     }
 }
